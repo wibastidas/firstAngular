@@ -1,27 +1,25 @@
-# FirstAngular
+# Repositorio basado en el artículo [Angular 5: Inicio rápido con angular-cli y angular material](https://medium.com/williambastidasblog/filtrar-lista-de-alto-rendimiento-en-ionic-2-y-3-c0c818a633f5).
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0.
+Este proyecto usa:
 
-## Development server
+Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+![my-protecto-angular](https://cdn-images-1.medium.com/max/640/1*KSfHN2Zc9YC6tS_RFjbr6w.png)
 
-## Code scaffolding
+Resultado:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![resultado](https://cdn-images-1.medium.com/max/640/1*Ljx92kLPhyj0rB_B5g7_wQ.png)
 
-## Build
+Recuerda que luego de descargar o clonar el proyecto debes ubicarte en tu proyecto en la terminal y ejecutar:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+```
+npm install
+````
+Y luego:
 
-## Running unit tests
+```
+ionic cordova prepare
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+para descargar todas las dependencias del proyecto.
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
